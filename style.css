@@ -27,7 +27,7 @@ p {
         font-size: 35px; /* Set the default font size for all elements */
       }
     
-      .figure-image {
+      #centered-image {
         width: 80%; /* Adjust the width of the image */
         /* You can use other units (e.g., px, em) or percentages as needed */
         display: block; /* Ensures the image doesn't display inline */
