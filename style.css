@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(176, 170, 139);
+}
+
+#header1 {
+    text-align: center;
+  }
+
+p {
+    text-align: center;
+    font-size: 40px;
+    color: red;
+  }
+
+#centered-image {
+    text-align: center; /* Center the figure */
+    width: 30%; /* Adjust the width of the image */
+    /* You can use other units (e.g., px, em) or percentages as needed */
+    display: block; /* Ensures the image doesn't display inline */
+    margin: 0 auto; /* Centers the image horizontally within the figure */    
+  }
+
+  @media all and (max-width: 1200px) {
+    /* Styles for smaller screens */
+    /* For example, adjust layout, font sizes, etc. */
+    * {
+        font-size: 35px; /* Set the default font size for all elements */
+      }
+    
+      .figure-image {
+        width: 80%; /* Adjust the width of the image */
+        /* You can use other units (e.g., px, em) or percentages as needed */
+        display: block; /* Ensures the image doesn't display inline */
+        margin: 0 auto; /* Centers the image horizontally within the figure */
+      }
+
+  }
